@@ -17,8 +17,8 @@ services:
         - --store=bolt
         - --bolt.path=/data/bot.db
         environment:
-          TELEGRAM_ADMIN: "163689317"
-          TELEGRAM_TOKEN: 6778147207:AAHVr3ADY-4YnGeaAQaLZLgSAr8wEgS4JPA
+          TELEGRAM_ADMIN: "YOUR_TG_ID"
+          TELEGRAM_TOKEN: YOUR_BOT_TOKEN
         image: metalmatze/alertmanager-bot:0.4.3
         ports:
         - 0.0.0.0:8080:8080
